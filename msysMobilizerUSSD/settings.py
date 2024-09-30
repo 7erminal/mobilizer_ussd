@@ -26,7 +26,7 @@ SECRET_KEY = '&+x65jn7y9%h!$4hikqxvlwtsx8a$zomjt&w99z@-kgeth+and'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','hip-books-build.loca.lt']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','hip-books-build.loca.lt','mobilization.msysconsultgh.com']
 
 API_URL = 'https://mobilization.msysconsultgh.com'
 # API_URL = 'http://localhost:8001'
