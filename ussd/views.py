@@ -243,7 +243,7 @@ class UssdRequest(viewsets.ViewSet):
 
                                     if response.status_code == 200:
                                         resp = response.json()
-                                        if resp['data']['StatusCode'] == 200:
+                                        if resp['data']['StatusCode'] == 500:
                                             # Show main view as pin verification is successful
                                             logger.info("Phone number to get accounts is "+phone_number)
                                             response = api_caller.getCustAccounts(phone_number)
