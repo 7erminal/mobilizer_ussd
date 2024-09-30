@@ -128,7 +128,7 @@ DATABASES = {
         # 'USER': 'root',
         # 'PASSWORD': 'commander&Chief87',
         'USER': 'msys',
-        'PASSWORD': 'JayBedeMsys24gh',
+        'PASSWORD': 'Msys@24gh',
         #'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
         'PORT': '3306',
 
